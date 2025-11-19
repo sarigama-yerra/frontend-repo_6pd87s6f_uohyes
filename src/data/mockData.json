@@ -1,0 +1,99 @@
+{
+  "exchanges": ["Binance", "FXCM"],
+  "pairs": [
+    { "exchange": "Binance", "symbol": "BTC/USDT", "icon": "btc" },
+    { "exchange": "Binance", "symbol": "ETH/USDT", "icon": "eth" },
+    { "exchange": "Binance", "symbol": "SOL/USDT", "icon": "sol" },
+    { "exchange": "FXCM", "symbol": "EUR/USD", "icon": "eur" },
+    { "exchange": "FXCM", "symbol": "GBP/USD", "icon": "gbp" },
+    { "exchange": "FXCM", "symbol": "USD/JPY", "icon": "jpy" }
+  ],
+  "timeframes": ["15m", "1H", "4H", "1D"],
+  "patterns": [
+    "Harmonic Patterns",
+    "Quasi-Modo (QM)",
+    "Wolfe Waves"
+  ],
+  "opportunities": [
+    {
+      "id": "opp-1",
+      "exchange": "Binance",
+      "pair": "BTC/USDT",
+      "timeframe": "4H",
+      "pattern": "Bullish Gartley",
+      "category": "Harmonic Patterns",
+      "confidence": 87,
+      "prices": [
+        {"t": 1, "o": 64120, "h": 64310, "l": 63980, "c": 64230},
+        {"t": 2, "o": 64230, "h": 64420, "l": 64110, "c": 64380},
+        {"t": 3, "o": 64380, "h": 64500, "l": 64200, "c": 64460},
+        {"t": 4, "o": 64460, "h": 64680, "l": 64410, "c": 64610},
+        {"t": 5, "o": 64610, "h": 64690, "l": 64400, "c": 64640}
+      ]
+    },
+    {
+      "id": "opp-2",
+      "exchange": "Binance",
+      "pair": "ETH/USDT",
+      "timeframe": "1H",
+      "pattern": "Bearish Bat",
+      "category": "Harmonic Patterns",
+      "confidence": 79,
+      "prices": [
+        {"t": 1, "o": 3240, "h": 3252, "l": 3228, "c": 3235},
+        {"t": 2, "o": 3235, "h": 3246, "l": 3220, "c": 3231},
+        {"t": 3, "o": 3231, "h": 3240, "l": 3212, "c": 3220},
+        {"t": 4, "o": 3220, "h": 3229, "l": 3208, "c": 3215},
+        {"t": 5, "o": 3215, "h": 3224, "l": 3201, "c": 3212}
+      ]
+    },
+    {
+      "id": "opp-3",
+      "exchange": "FXCM",
+      "pair": "EUR/USD",
+      "timeframe": "15m",
+      "pattern": "Quasimodo Long",
+      "category": "Quasi-Modo (QM)",
+      "confidence": 72,
+      "prices": [
+        {"t": 1, "o": 1.0825, "h": 1.0830, "l": 1.0820, "c": 1.0827},
+        {"t": 2, "o": 1.0827, "h": 1.0836, "l": 1.0823, "c": 1.0832},
+        {"t": 3, "o": 1.0832, "h": 1.0838, "l": 1.0829, "c": 1.0834},
+        {"t": 4, "o": 1.0834, "h": 1.0839, "l": 1.0830, "c": 1.0831},
+        {"t": 5, "o": 1.0831, "h": 1.0835, "l": 1.0827, "c": 1.0830}
+      ]
+    },
+    {
+      "id": "opp-4",
+      "exchange": "FXCM",
+      "pair": "GBP/USD",
+      "timeframe": "1D",
+      "pattern": "Wolfe Wave Short",
+      "category": "Wolfe Waves",
+      "confidence": 90,
+      "prices": [
+        {"t": 1, "o": 1.263, "h": 1.266, "l": 1.262, "c": 1.265},
+        {"t": 2, "o": 1.265, "h": 1.268, "l": 1.264, "c": 1.266},
+        {"t": 3, "o": 1.266, "h": 1.268, "l": 1.262, "c": 1.263},
+        {"t": 4, "o": 1.263, "h": 1.265, "l": 1.261, "c": 1.262},
+        {"t": 5, "o": 1.262, "h": 1.264, "l": 1.260, "c": 1.261}
+      ]
+    },
+    {
+      "id": "opp-5",
+      "exchange": "Binance",
+      "pair": "SOL/USDT",
+      "timeframe": "4H",
+      "pattern": "Bullish Cypher",
+      "category": "Harmonic Patterns",
+      "confidence": 81,
+      "prices": [
+        {"t": 1, "o": 184.2, "h": 186.4, "l": 183.6, "c": 185.9},
+        {"t": 2, "o": 185.9, "h": 187.1, "l": 184.1, "c": 186.3},
+        {"t": 3, "o": 186.3, "h": 188.0, "l": 185.4, "c": 187.4},
+        {"t": 4, "o": 187.4, "h": 188.3, "l": 186.1, "c": 187.0},
+        {"t": 5, "o": 187.0, "h": 188.8, "l": 185.8, "c": 188.2}
+      ]
+    }
+  ]
+}
